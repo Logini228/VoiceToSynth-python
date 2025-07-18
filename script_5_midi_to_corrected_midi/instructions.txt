@@ -1,0 +1,14 @@
+I want you to take midi.mid of vocal and reconstructed.json which is a json file aimed to reconstruct the sounds from singing. The problem is that not always sounds go at the same rate piano does.
+
+Input:
+ - midi.mid
+ - reconstructed.json
+
+Output:
+ - corrected_midi.mid
+ - corrected_reconstructed.json
+
+How: Creates a corrected_reconstructed.json.Creates a new midi file in which it looks reconstructed.json and for each sound creates own note. it does that by looking at the time of the sound and comparing it to the midi.mid file and places on the note it falls, if it falls on more than one note then it writes into corrected_reconstructed.json the sound's starttime and endtime to that note from midi.mid and for all next notes are assigned a sound "-" in the language of the original sound until the next sound.
+
+Result: A .midi file which has a note for each sound from corrected_reconstructed.json and a corrected_reconstructed.json in itself
+

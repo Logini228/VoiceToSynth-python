@@ -1,0 +1,15 @@
+I want you to take vocal.wav and turn it in the way so you reconstruct it using the sounds from specified folder.
+
+Input:
+ - reconstructed.json
+ - combined_pitch.json
+ - midi.mid
+
+Output:
+ - 
+
+How: the vocal.wav is my singing that I want to reconstruct using all the sounds
+
+Result: A .wav file at least 80% identical to vocal.wav and a json version of which sounds and when
+
+

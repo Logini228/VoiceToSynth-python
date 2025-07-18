@@ -1,0 +1,23 @@
+I want you to take vocal.wav and turn it in the way so you reconstruct it using the sounds from specified folder. There will be 2 folders for now: for synthv and for vocaloid. The script should look ONLY the sound files from the specified folder. the sound files naming is language-sound-duration.wav (for example: spanish-la-half.wav)(in use half for 0.5, quarter for 0.25 and eigth for 0.125). Make sure to analyze well the soundwave and pick the right sound with the right duration
+
+Input:
+ - vocal.wav
+ - String (specify SynthV or Vocaloid)
+
+Output:
+ - reconstructed.wav
+ - reconstructed.json
+
+How: the vocal.wav is my singing that I want to reconstruct using all the sounds
+
+Result: A .wav file at least 80% identical to vocal.wav and a json version of which sounds and when
+
+Json file structure example:
+"1":
+	"starttime":"00:00:00",
+	"endtime":"00:01:00",
+	"language":"Spanish",
+	"sound":"la",
+	"duration":"0.5"
+
+(that was sound la of 0.5 beat in spanish from second 0 to second 1)

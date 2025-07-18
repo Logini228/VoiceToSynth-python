@@ -1,0 +1,13 @@
+I want you to take song.wav and instr.wav and invert them in the way so the song.wav without instrumental pure vocal
+
+Input:
+ - song.wav
+ - instr.wav
+
+Output:
+ - vocal.wav
+
+How: song is just a combination of vocal and instrument so getting the exact song and instrument should be enough to get vocals. In other words, using song and instr isolate vocals.
+
+Result: A .wav file at least 95% identical to vocal.wav . DO NOT USE vocal.wav IN THE CODE, it is here just for check result
+

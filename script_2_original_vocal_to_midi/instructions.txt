@@ -1,0 +1,12 @@
+I want you to take vocal.wav and turn it in the way so you get the piano file midi.mid of the audio
+
+Input:
+ - vocal.wav
+
+Output:
+ - midi.mid
+
+How: the vocal.wav file was sung in the vocaloid software using a midi. I want you to write script that reverse-engineers the vocal to make a midi out of it
+
+Result: A .mid file at least 95% identical to midi.mid . DO NOT USE midi.mid IN THE CODE, it is here just for check result
+

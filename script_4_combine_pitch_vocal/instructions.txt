@@ -1,0 +1,17 @@
+I want you to take vocal.wav and vocal2.wav and combine their pitches 
+
+Input:
+ - vocal.wav
+ - vocal2.wav
+ - int (percentages, 50 means 50/50 of pitches of both audio files, 75 means 75/25, 25 means 25/75 and so on)
+
+Output:
+ - combined_pitch.json
+
+How: Both audio files have pitch because they are sung. I want you to extract pitches from both audios, normalize the lower pitch one to the higher pitch one, and then combine them in specified rate.
+
+Result: a .json file containing pitch for each milisecond of audio.
+
+
+THIS SCRIPT USES DIFFERENT JSON FORMAT
+

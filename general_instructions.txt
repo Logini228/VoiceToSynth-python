@@ -1,0 +1,14 @@
+ALL SCRIPTS ONLY USE PYTHON. 
+All scripts should be able to be called to be called from command line with specified inputs and create specified outputs.
+
+Json file structure example:
+"1":
+	"starttime":"00:00:00",
+	"endtime":"00:01:00",
+	"language":"Spanish",
+	"sound":"la",
+	"duration":"0.5"
+
+(that was sound la of 0.5 beat in spanish from second 0 to second 1)
+
+The code should not have many comments but be very self-documented. Create 2 scripts at a time, one for utility fuctions and another one for main workflow so it stays clean.
