@@ -13,7 +13,7 @@ def main():
     name, ext = os.path.splitext(output_path)
     counter = 1
     while os.path.exists(output_path):
-        output_path = f"{name}{counter}{ext}"
+        output_path = f"{name.split('1')[0]}{counter}{ext}"
         counter += 1
 
     isolate_vocals(args.song_path, args.instrumental_path, output_path)
