@@ -12,3 +12,5 @@ Json file structure example:
 (that was sound la of 0.5 beat in spanish from second 0 to second 1)
 
 The code should not have many comments but be very self-documented. Create 2 scripts at a time, one for utility fuctions and another one for main workflow so it stays clean.
+
+After the code was successfully implemented and tested, optimize the code and test again.
